@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    
+
+}
+
+body{
+    height: 100vh;
+
+    background-image: url(./images/why-do-we-use-them-for-birthday-celebrations.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container{
+    /* color: #228b22; */
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    word-spacing: 50px;
+    /* letter-spacing: .125rem; */
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+li{
+    display: inline-block;
+    font-weight: bolder;
+    color: #00bfff; 
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+li span{
+
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji{
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span{
+    font-size: 4rem;
+    padding:  0 0.5rem;
+}
+
+
+
+
+
+
+
+
